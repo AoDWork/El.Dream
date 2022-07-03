@@ -40,18 +40,21 @@ img {
     width: 100%;
     height: 100vh;
 
-    /* background-color: #52647F; */
-    /* background-image: url("./../img/header/header-bg-matrix.jpeg"); */
-    background-size: cover;
+    /*background-color: #ffffff; */
+    background: linear-gradient(to bottom left, transparent, #f1f3f5),
+            url("./../img/header/header_bg.jpg");
+    /* background-image: url("./../img/header/header_bg.jpg"); */
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .header-title {
     margin: 0;
+    margin-top: 100px;
     margin-bottom: 25px;
     font-weight: 700;
-    font-size: 56px;
+    font-size: 70px;
     line-height: 130%;
 
     text-align: center;
@@ -62,7 +65,7 @@ img {
 .header-subtitle {
     margin: 0;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 26px;
     line-height: 150%;
 
     text-align: center;
@@ -84,7 +87,7 @@ img {
 
 /* Portfolio */
 .portfolio {
-    background-color: rgb(0, 2, 12);
+    background-color: #f1f3f5;
     padding-top: 80px;
     padding-bottom: 115px;
 }
@@ -96,7 +99,7 @@ img {
     font-size: 46px;
     line-height: 1.3;
     text-align: center;
-    color: #ffffff;
+    color: #000000;
 }
 
 .portfolio-card-wrapper {
