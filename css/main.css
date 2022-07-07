@@ -110,14 +110,14 @@ img {
 .goods-card-wrapper {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .card {
     margin-bottom: 30px;
     margin-right: 5px;
     margin-left: 5px;
-    max-width: 340px;
+    max-width: 260px;
     background-color: white;
     box-shadow: 0px 10px 40px rgba(126, 155, 189, 0.35);
     flex-grow: 1;
@@ -176,6 +176,7 @@ img {
 .footer-row {
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -218,26 +219,19 @@ img {
 .footer-icons-row {
     display: flex;
     align-items: center;
+    
 }
 
-.footer-icons-row > * + * {
-    margin-left: 37px;
+.footer-icons-row > * {
+    margin-left: 30px;
+
 }
 
-.footer-icons-row a:hover{
-    animation: jump 0.4s ease-in;
+.footer-icons-row img:hover{
+    transition: all 0.3s ease-in;
+    transform: scale(1.5);
 }
 
-@keyframes jump{
-    0% { transform: translateY(0%) }
-    50% { transform: translateY(-20%);}
-    100% { transform: translateY(0%);}
-}
-
-
-/* .footer-contacts {
-
-} */
 
 .footer-button {
     display: inline-block;
