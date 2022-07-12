@@ -327,12 +327,14 @@ img {
 
 .modal-content{
     position:relative;
-    width:100%;
     padding:30px;
+    margin-left: auto;
+    margin-right: auto;
     background-color:#fff;
-    border:1px solid rgba(0,0,0,.2);
+    border:1px solid #bda6d4;
     border-radius:5px;
     max-height:80vh;
+    max-width: 1140px;
     overflow-y:auto
 }
 
@@ -354,25 +356,27 @@ img {
     line-height: 130%;
     text-align: center;
     text-transform: uppercase;
-    color: #bda6d4;
+    color: #ab7adb;
 }
     
-.modal-img {
+.modal-container{
     display: flex;
-    max-width: 260px;
+    justify-content: space-between;
     margin-bottom: 10px;
+}
+
+.modal-img {
+    padding: 20px;
+    max-width: 260px;
     border-radius: 15px;
 }
 
 .modal p {
-    display: flex;
-    margin: 0;
-    margin-bottom: 10px;
+    font-weight: 700;
     font-size: 16px;
     line-height: 130%;
     height: 60px;
-    /* overflow: hidden; */
-
+    color: #ab7adb;
 }
 
 .show{display:block} 
