@@ -1,5 +1,5 @@
 
-/* Эля экранов с шириной до 1140 пкс */
+/* Для экранов с шириной до 1140 пкс */
 @media (max-width: 1140px) {
     .card {
         width: calc(50% - 15px);
@@ -22,6 +22,10 @@
 
     .footer-column:first-child{
         margin-bottom: 0;
+    }
+
+    .modal-dialog{
+        max-width:90vw;
     }
 }
 
@@ -101,26 +105,42 @@
         max-width: 320px;
     }
 
-    .project {
-        padding: 40px 0 60px;
+    .modal-dialog {
+        /* max-width:90vw; */
+        margin-top: 60px;
     }
 
-    .project-title {
+    .modal-content{
+        max-height: 85vh;
+    }
+    
+    .modal-close{
+        position: fixed;
+    }
+
+    .modal-title {
         font-size: 28px;
-        margin-bottom: 30px;
+        margin-top: 0px;
+        margin-bottom: 10px;
     }
 
-    .project-image {
+    .modal-container{
+        flex-wrap: wrap;
+    }
+
+    .modal-img {
+        padding: 0px;
         margin-bottom: 20px;
+        min-width: 75vw;
     }
 
-    .project-description {
-        margin-bottom: 50px;
-    }
+    /* .modal p {
+        margin-bottom: 20px;
+    } */
 
-    .project-btn-back {
-        padding: 0 10px ;
-        width: 100%;
+    .btn-back {
         max-width: 320px;
     }
+
+
 }

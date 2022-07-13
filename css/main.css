@@ -322,7 +322,7 @@ img {
 
 .modal-dialog{
     max-width:80vw;
-    margin:40px auto
+    margin:120px auto
 }
 
 .modal-content{
@@ -333,7 +333,7 @@ img {
     background-color:#fff;
     border:1px solid #bda6d4;
     border-radius:5px;
-    max-height:80vh;
+    max-height: 80vh;
     max-width: 1140px;
     overflow-y:auto
 }
@@ -356,7 +356,7 @@ img {
     line-height: 130%;
     text-align: center;
     text-transform: uppercase;
-    color: #ab7adb;
+    color: #462d5f;
 }
     
 .modal-container{
@@ -376,7 +376,7 @@ img {
     font-size: 16px;
     line-height: 130%;
     height: 60px;
-    color: #ab7adb;
+    color: #462d5f;
 }
 
 .show{display:block} 
