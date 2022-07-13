@@ -132,6 +132,7 @@
         padding: 0px;
         margin-bottom: 20px;
         min-width: 75vw;
+        border-radius: 15px;
     }
 
     /* .modal p {
