@@ -322,7 +322,7 @@ img {
 
 .modal-dialog{
     max-width:80vw;
-    margin:120px auto
+    margin:10vh auto
 }
 
 .modal-content{
@@ -346,7 +346,6 @@ img {
     color: #bda6d4;
     font-weight:700;
     border:none;
-    /* background-color:transparent; */
     cursor:pointer
 }
 
