@@ -134,7 +134,7 @@ img {
 
 .card-link:hover {
     color: #ab7adb;
-    font-weight: 700;
+    /* font-weight: 600; */
 }
 
 .card-img {
