@@ -33,7 +33,6 @@ img {
     position: relative;
 
     display: flex;
-    flex-direction: column; 
     justify-content: center; 
     align-items: center;    
 
@@ -46,32 +45,6 @@ img {
     background-repeat: no-repeat;
     background-position: center;
 }
-
-/* .header-title {
-    margin: 0;
-    margin-top: 100px;
-    margin-bottom: 25px;
-    font-weight: 700;
-    font-size: 70px;
-    line-height: 130%;
-
-    text-align: center;
-
-    color: #FFFFFF;
-}
-
-.header-subtitle {
-    margin: 0;
-    font-weight: bold;
-    font-size: 26px;
-    line-height: 150%;
-
-    text-align: center;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-
-    color: #FFFFFF;
-} */
 
 .header img {
     width: 48px;
