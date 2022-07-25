@@ -1,3 +1,9 @@
+/* Для экранов с шириной до 1900 пкс */
+@media (max-width: 1900px) {
+    .modal-close{
+        right:12vw;
+    }
+}
 
 /* Для экранов с шириной до 1140 пкс */
 @media (max-width: 1140px) {
@@ -26,6 +32,10 @@
 
     .modal-dialog{
         max-width:90vw;
+    }
+
+    .modal-close{
+        right:7vw;
     }
 }
 
@@ -106,16 +116,16 @@
     }
 
     .modal-dialog {
-        /* max-width:90vw; */
-        margin-top: 10vh;
+        margin:7vh auto;
     }
 
     .modal-content{
-        max-height: 85vh;
+        max-height: 100vh;
     }
     
     .modal-close{
-        position: fixed;
+        top:6px;
+        right:8vw;
     }
 
     .modal-title {
@@ -134,10 +144,6 @@
         min-width: 75vw;
         border-radius: 15px;
     }
-
-    /* .modal p {
-        margin-bottom: 20px;
-    } */
 
     .btn-back {
         max-width: 320px;
