@@ -1,8 +1,14 @@
-*{
+* {
     box-sizing: border-box;
+    
 }
 
-html{
+*::selection {
+    background-color:#b781ec;
+    color: #fff;
+}
+
+html {
     scroll-behavior: smooth;
 }
 
