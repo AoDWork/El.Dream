@@ -95,6 +95,7 @@ img {
 
 .card:hover {
     transform: translateY(-15px);
+    box-shadow:0px 0px 20px 0px #ab7adb ;
 }
 
 .card-link {
@@ -107,7 +108,6 @@ img {
 
 .card-link:hover {
     color: #ab7adb;
-    /* font-weight: 600; */
 }
 
 .card-img {
@@ -204,6 +204,7 @@ img {
 .footer-icons-row img:hover{
     transition: all 0.3s ease-in;
     transform: scale(1.5);
+    filter: drop-shadow(0px 0px 30px rgb(251, 255, 2));
 }
 
 
