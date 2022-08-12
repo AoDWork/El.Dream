@@ -5,6 +5,28 @@
     }
 }
 
+/* Для экранов с шириной до 1560px пкс */
+/* @media (max-width: 1560px) {
+    .modal-close{
+        right:18vw;
+    }
+} */
+
+/* Для экранов с шириной до 1768 пкс */
+@media (max-width: 1768px) {
+    .modal-close{
+        right:14vw;
+    }
+}
+
+/* Для экранов с шириной до 1450 пкс */
+@media (max-width: 1460px) {
+    .modal-close{
+        right:12vw;
+    }
+}
+
+
 /* Для экранов с шириной до 1140 пкс */
 @media (max-width: 1140px) {
     .card {
@@ -35,7 +57,7 @@
     }
 
     .modal-close{
-        right:7vw;
+        right:10vw;
     }
 }
 
