@@ -1,19 +1,61 @@
+/* Для экранов с шириной до 3840px пкс */
+/* @media (max-width: 3840px) {
+    .modal-close{
+        right:32vw;
+    }
+} */
+
+/* Для экранов с шириной до 3440px пкс */
+@media (max-width: 3440px) {
+    .modal-close{
+        right:31vw;
+    }
+}
+
+/* Для экранов с шириной до 2650px пкс */
+@media (max-width: 2650px) {
+    .modal-close{
+        right:29vw;
+    }
+}
+
+/* Для экранов с шириной до 2450px пкс */
+@media (max-width: 2450px) {
+    .modal-close{
+        right:27vw;
+    }
+}
+
+/* Для экранов с шириной до 2250px пкс */
+@media (max-width: 2250px) {
+    .modal-close{
+        right:25vw;
+    }
+}
+
+/* Для экранов с шириной до 2048 пкс */
+@media (max-width: 2048px) {
+    .modal-close{
+        right:23vw;
+    }
+}
+
 /* Для экранов с шириной до 1900 пкс */
 @media (max-width: 1900px) {
     .modal-close{
-        right:12vw;
+        right:20vw;
+    }
+}
+
+/* Для экранов с шириной до 1768 пкс */
+@media (max-width: 1720px) {
+    .modal-close{
+        right:17vw;
     }
 }
 
 /* Для экранов с шириной до 1560px пкс */
-/* @media (max-width: 1560px) {
-    .modal-close{
-        right:18vw;
-    }
-} */
-
-/* Для экранов с шириной до 1768 пкс */
-@media (max-width: 1768px) {
+@media (max-width: 1560px) {
     .modal-close{
         right:14vw;
     }
@@ -57,7 +99,7 @@
     }
 
     .modal-close{
-        right:10vw;
+        right:8vw;
     }
 }
 
