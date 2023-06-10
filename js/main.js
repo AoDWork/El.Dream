@@ -7,7 +7,7 @@ window.addEventListener("DOMContentLoaded", ()=>{
           modalCloseBtn = document.querySelector("[data-close]"),
           parentContantWrap = document.querySelector(".modal-content");
 
-    // ф-я перебора триггеров
+    // map triggers
     modalTrigger.forEach(btn =>{
         
         btn.addEventListener("click", (e)=>{
@@ -39,7 +39,7 @@ window.addEventListener("DOMContentLoaded", ()=>{
         });
     });
     
-    // ф-я закрытия модального окна
+    // close modal
     function closeModal(){
         modal.classList.add("hide");
         modal.classList.remove("show");
@@ -68,7 +68,7 @@ window.addEventListener("DOMContentLoaded", ()=>{
     });
 
 
-    // закрытие по кнопке Esc 
+    // close modal on Esc
     document.addEventListener("keydown", (e)=>{
         if(e.code === "Escape" && modal.classList.contains("show")){
             closeModal();           
